@@ -1,0 +1,70 @@
+.about-content {
+    flex: 1;
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-banner {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+/*Not sure how to get everything out of column view..*/
+.about-interests {
+    background-color: white;
+    padding: 5px 10px;
+    text-align: center;
+    flex-direction: column;
+    border: 5px black;
+
+}
+
+/*the formatting came from here:https://tympanus.net/codrops/2012/11/02/heading-set-styling-with-css/*/
+h3 {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+img {
+    border-radius: 8px;
+}
+
+
+.about-aside {
+    width: 200px;
+    list-style: none;
+    color: white;
+    background-color: rgb(20, 19, 19);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    align-self: flex-start;
+}
+
+
+
+.info {
+    list-style: none;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+/*wanted to make the links menu change color as people over*/
+.reachout a {
+    color: white;
+
+}
+
+.reachout a:hover {
+    background-color: white;
+    color: black;
+}
